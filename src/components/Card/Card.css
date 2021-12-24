@@ -1,0 +1,34 @@
+.fCard {
+    
+    width: max( 22%, 240px );
+    height: max( 25%, 150px );
+    max-height: 300px;
+    margin: 1% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px silver solid;
+    box-sizing: border-box;
+    padding: 1%;
+    
+}
+
+.fCard:hover {
+    cursor: pointer;
+    width: max( 22.2%, 241px );
+    border: 1px rgb(114, 114, 114) dotted;
+    background-color: #eed04a85;
+}
+
+.fCard img {
+    width: 90%;
+    height: 200px;    
+}
+
+.fCard h1 {
+    margin: 2% 0;
+    width: 90%;
+    font-size: 20px;
+    text-align: center;
+}

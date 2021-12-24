@@ -1,0 +1,97 @@
+.mainBox {
+    height: auto;
+    min-height: 100vh;   
+
+}
+
+.nav {
+    width: 100%;
+    height: max( 8vh, 70px );
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #b6b6b6;
+}
+
+.fLogo {
+    width: max(10%, 150px);
+    max-width: 230px;
+    height: 70%;
+}
+
+.fPesquisa{
+    background-color: rgb(214, 214, 214);
+    width: max( 30%, 400px);
+    height: max( 40%, 50px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.fPesquisa:hover {
+    background-color: #f3f3f3;
+}
+
+.fPesquisa input {
+    width: 95%;
+    min-width: 80px;
+    height: 80%;
+    
+    border: 1px silver solid;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: 200;
+    padding-left: 10px;
+}
+
+.fTitle {
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: max( 60%, 800px);
+    height: 50px;
+    margin: 2% auto 0;
+}
+
+.fTitle img {
+    height: 100%;
+    margin: 0 10px;
+}
+.fContainer {
+    background-color: #f3f3f3;
+    border: 1px silver dotted ;
+    margin: 0 auto;
+    width: max( 60%, 800px);    
+    height: auto;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerCards {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.buttonMore {
+    margin: 2%;
+}
+
+.buttonMore button {
+    width: 250px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    border: 1px silver solid;
+}
+
+.buttonMore button:hover {
+    background-color: #eed04a85;
+    border: 0;
+    width: 270px;
+}
